@@ -8,3 +8,4 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
 from app.models.habit import Habit
+from app.models.habit_log import HabitLog
